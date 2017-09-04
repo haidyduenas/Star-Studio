@@ -1,0 +1,128 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+section header{
+    background:url('../img/header-bg.jpg');
+    background-size: 100%;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+nav{
+	width: 100%;
+}
+
+#welcome{
+	color: white;
+	padding-top: 150px;
+}
+
+#nice{
+	padding-top: 50px;
+	font-size: 5em;
+	color: #FFCC00;
+}
+
+
+
+/*Seccion de servicios*/
+.cont{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.circle{
+	display: flex;
+    justify-content: space-around;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #FFCC00;
+	margin: 0 auto;
+
+}
+.servicio i{
+    font-size: 6em;
+    color: #fff; 
+    padding-top: 0.4em;
+}
+
+.text-servicios{
+	width: 80%;
+	height: 80%;
+	margin :3em;
+	text-align: justify;
+}
+
+/*Area de portafolio*/
+
+.port-img{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 2em;
+}
+
+/*Area de team*/
+#team{
+	background-color: #D5DBDB;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.team-img{
+	flex-wrap: wrap;
+	border-image-width: 2em;
+	border : white solid;
+	width: 20em;
+	margin : 0 auto;
+}
+
+.titulo-team{
+	padding: 1.5em;
+}
+
+.icono{
+	margin-bottom: 10px;
+	padding: 1.5em;
+}
+.social{
+	display: inline-block;
+	justify-content: space-around;
+    font-size: 18px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #2C3E50  ;
+	margin: 0 auto;
+	color: white;
+}
+
+.map{
+	background-color: black;
+	background-image: url('../img/map-image.png');
+    background-size: 100%;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+ #contac-us{
+ 	z-index: 10000;
+ 	align-items: center;
+ 	color: white;
+ }
+
+ .input-datos{
+ 	display: flex;
+ 	padding-top: 1.5em;
+ 	padding-bottom: 1.5em;
+ }
+
