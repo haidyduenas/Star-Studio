@@ -1,20 +1,28 @@
-* {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
+body{
+	margin: 0 auto;
 }
 
-section header{
+header{
     background:url('../img/header-bg.jpg');
-    background-size: 100%;
     background-size: cover;
-    margin: 0 auto;
     width: 100%;
     height: 100vh;
-    display: block;
+    display: flex;
 }
 
-nav{
-	width: 100%;
+nav ul li a{
+	color: white;
+}
+
+.nav>ul>li>a:hover {
+    background-color:#ffc102;
+    color: white ;
+}
+
+.cont{
+    text-align: center;
+	display: flex;
+	justify-content: space-around;
 }
 
 #welcome{
@@ -31,11 +39,7 @@ nav{
 
 
 /*Seccion de servicios*/
-.cont{
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
+
 .circle{
 	display: flex;
     justify-content: space-around;
